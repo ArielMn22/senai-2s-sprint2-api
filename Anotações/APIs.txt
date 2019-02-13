@@ -1,0 +1,34 @@
+API - Application Programming Interface.
+
+Vantagens:
+	- Integração entre sistemas;
+	- Segurança;
+		Regras de negócio.
+	- Implementação;
+		Mais simples de ser implementado.
+
+REST - Representational State Tranfer.
+	- A maneira como será implementado.
+	- Um livro com boas maneiras da APIs.
+
+Métodos/Verbos HTTP:
+	- GET;
+	- POST;
+	- PUT;
+	- PATCH;
+	- DELETE;
+
+Uma API retorna valores por meio de um JSON ou um XML.
+	- JSON - O formato como o seu dado vai ser retornado.
+	- XML - exemplo, 'dados do governo', xml é mais pesado, tem uma infraestrutura melhor, é mais tipado.
+
+O que é uma API:
+	- Integrar sistemas, retornar dados;
+
+Estrutura do JSON:
+	[ //json array
+		{ //json object
+			"id":101, //"id" = chave ; 101 = valor
+			"desc":"AABBCC"
+		}
+	]
