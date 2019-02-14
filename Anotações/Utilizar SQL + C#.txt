@@ -1,0 +1,5 @@
+Para integrar o banco de dados SQL em C#, basta instalar o pacote NuGet:
+	- System.Data.SQLClient;
+
+String de conexão:
+	- URL de onde está o banco de dados na máquina local, O nome do banco de dados utilizado, usuário e senha.
