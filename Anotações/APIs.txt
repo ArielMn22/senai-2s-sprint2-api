@@ -30,5 +30,11 @@ Estrutura do JSON:
 		{ //json object
 			"id":101, //"id" = chave ; 101 = valor
 			"desc":"AABBCC"
+		},
+		{ //json object
+			"id":102, //"id" = chave ; 101 = valor
+			"desc":"DDEEFF"
 		}
 	]
+
+* Os Models também podem ser chamados de Entity ou Domains para representar as entidades do Banco de Dados.
