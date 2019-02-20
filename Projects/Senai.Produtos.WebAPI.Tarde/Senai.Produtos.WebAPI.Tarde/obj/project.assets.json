@@ -11909,11 +11909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\33747821839\\source\\repos\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde.csproj",
+      "projectUniqueName": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde.csproj",
       "projectName": "Senai.Produtos.WebAPI.Tarde",
-      "projectPath": "C:\\Users\\33747821839\\source\\repos\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde.csproj",
+      "projectPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde.csproj",
       "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33747821839\\source\\repos\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\obj\\",
+      "outputPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.Produtos.WebAPI.Tarde\\Senai.Produtos.WebAPI.Tarde\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

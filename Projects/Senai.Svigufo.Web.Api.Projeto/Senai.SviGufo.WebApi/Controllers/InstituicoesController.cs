@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.SviGufo.WebApi.Domains;
@@ -27,6 +28,8 @@ namespace Senai.SviGufo.WebApi.Controllers
         /// </summary>
         /// <returns>List<InsituicaoDomain></returns>
         [HttpGet]
+        // Assunto de amanhã
+        [Authorize(Roles = "ADMINISTRADOR")]
         public IActionResult Get() => Ok(InstituicaoRepository.Listar()); ///Método feito com lambda, mas poderia ser feito instanciando uma lista e retornando a lista do método 'InstituicaoRepository.Listar()'
 
         [HttpGet("{id}")]
