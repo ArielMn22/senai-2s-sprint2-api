@@ -12527,6 +12527,9 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.EntityFrameworkCore.Design >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
     ]
@@ -12538,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.DataBaseFirst.WebApi\\Senai.InLock.DataBaseFirst.WebApi\\Senai.InLock.DataBaseFirst.WebApi.csproj",
-      "projectName": "Senai.InLock.DataBaseFirst.WebApi",
-      "projectPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.DataBaseFirst.WebApi\\Senai.InLock.DataBaseFirst.WebApi\\Senai.InLock.DataBaseFirst.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.CodeFirst.WebApi.Tarde\\Senai.InLock.CodeFirst.WebApi.Tarde\\Senai.InLock.CodeFirst.WebApi.Tarde.csproj",
+      "projectName": "Senai.InLock.CodeFirst.WebApi.Tarde",
+      "projectPath": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.CodeFirst.WebApi.Tarde\\Senai.InLock.CodeFirst.WebApi.Tarde\\Senai.InLock.CodeFirst.WebApi.Tarde.csproj",
       "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.DataBaseFirst.WebApi\\Senai.InLock.DataBaseFirst.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.CodeFirst.WebApi.Tarde\\Senai.InLock.CodeFirst.WebApi.Tarde\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12582,6 +12585,20 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

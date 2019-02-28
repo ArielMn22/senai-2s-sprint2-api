@@ -75,5 +75,72 @@ namespace Senai.InLock.DataBaseFirst.WebApi.Controllers
                 });
             }
         }
+
+        [HttpPut]
+        public IActionResult Atualizar(Estudios estudio)
+        {
+            try
+            {
+                using (InLockContext ctx = new InLockContext())
+                {
+
+                    Estudios estudioProcurado = ctx.Estudios.Find(estudio.EstudioId);
+
+                    if (estudioProcurado == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // O que eu recebi do estúdio? de diferente que está no bd.
+                    // valor que está no banco de dados - valor que recebo da api.
+
+                    estudioProcurado.NomeEstudio = estudio.NomeEstudio;
+
+                    ctx.Estudios.Update(estudio);
+                    // ctx.Estudios.Update(estudio)
+                    ctx.SaveChanges();
+                }
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    mensagem = "Erro: " + ex
+                });
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            try
+            {
+                using (InLockContext ctx = new InLockContext())
+                {
+                    //Verificar se existe
+                    Estudios estudioProcurado = ctx.Estudios.Find(id);
+
+                    if (estudioProcurado == null)
+                    {
+                        return NotFound();
+                    }
+
+                    //Caso exista
+                    ctx.Estudios.Remove(estudioProcurado);
+                    ctx.SaveChanges();
+                }
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    mensagem = "Erro: " + ex
+                });
+            }
+        }
     }
 }
