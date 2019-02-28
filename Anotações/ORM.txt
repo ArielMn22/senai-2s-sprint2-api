@@ -1,0 +1,10 @@
+ORM - Object-Related Mapping
+
+Uma alternativa ao SqlClient, que é utilizado para conectar o repositório com o banco de dados.
+
+Tipos de ORM:
+	- Entity Framework;
+	- NHibernate;
+
+Comando para utilizar o Entity, Database First:
+Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=<NOME_DO_BANCO>; user id=<USUARIO>; pwd=<SENHA>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context InLockContext

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.InLock.DataBaseFirst.WebApi", "Senai.InLock.DataBaseFirst.WebApi\Senai.InLock.DataBaseFirst.WebApi.csproj", "{AE450856-52E3-4111-BF90-BFDA78DDD77F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE450856-52E3-4111-BF90-BFDA78DDD77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE450856-52E3-4111-BF90-BFDA78DDD77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE450856-52E3-4111-BF90-BFDA78DDD77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE450856-52E3-4111-BF90-BFDA78DDD77F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D535573-0993-47D7-A485-B12E2E8F4F9C}
+	EndGlobalSection
+EndGlobal
