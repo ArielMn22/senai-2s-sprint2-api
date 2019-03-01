@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "projectName": "Senai.InLock.WebApi",
-      "projectPath": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33747821839\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\33747821839\\Documents\\Ariel\\senai-2s-sprint2-api\\Projects\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
