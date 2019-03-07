@@ -1,0 +1,3 @@
+Pacote Nuget:
+
+- Swashbuckle.AspNetCore.Swagger 2.1.1

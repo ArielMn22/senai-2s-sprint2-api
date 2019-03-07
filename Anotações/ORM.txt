@@ -7,7 +7,7 @@ Tipos de ORM:
 	- NHibernate;
 
 Comando para utilizar o Entity, Database First:
-Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=<NOME_DO_BANCO>; user id=<USUARIO>; pwd=<SENHA>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context InLockContext
+Scaffold-DbContext "Data Source=.\SqlExpress; Initial Catalog=<NOME_DO_BANCO>; user id=<USUARIO>; pwd=<SENHA>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context <PROJETO>Context
 
 Bibliotecas para utilizar o EntityFramework:
 	- Microsoft.EntityFrameworkCore.Design 2.1.1
